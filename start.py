@@ -1,17 +1,10 @@
 import os, time
-
-os.system('clear')
-os.system('pip install colorama')
-os.system('clear')
-
+os.system('clear && pip install colorama && pkg install toilet -y && clear')
 from colorama import Fore, Style
-
 print ('\n')
 def res():
     print(Style.RESET_ALL)
 os.system('clear')
-
-
 while True:
     print(Fore.CYAN + ' ')
     print(Style.BRIGHT + ' ')
