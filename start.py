@@ -21,6 +21,8 @@ while True:
     print(' [2] ')
     print(' [3] ')
     print(' [4] ')
+    print(' [5] ')
+    print(' [6] ')
     print(' ')
     print(' [0] Выход')
     print(Fore.BLUE+' '+Style.BRIGHT)
@@ -43,6 +45,106 @@ while True:
             os.system('clear')
 
         if inp_1 =='2':
+            os.system('clear')
+
+        else:
+            os.system('clear')
+
+    elif inp =='2':
+        print(Fore.GREEN + ' '+Style.BRIGHT)
+        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
+        print(Fore.GREEN+' '+Style.BRIGHT)
+        print(' [1] Предпосмотр')
+        print(' [2] Установить')
+        print(' [0] Назад')
+        print(Fore.BLUE+' '+Style.BRIGHT)
+        inp_2 = input (' Выбери пункт>>> ')
+        os.system('clear')
+        res()
+        if inp_2 =='1':
+            os.system('clear')
+
+        if inp_2 =='2':
+            os.system('clear')
+
+        else:
+            os.system('clear')
+
+    elif inp =='3':
+        print(Fore.GREEN + ' '+Style.BRIGHT)
+        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
+        print(Fore.GREEN+' '+Style.BRIGHT)
+        print(' [1] Предпосмотр')
+        print(' [2] Установить')
+        print(' [0] Назад')
+        print(Fore.BLUE+' '+Style.BRIGHT)
+        inp_3 = input (' Выбери пункт>>> ')
+        os.system('clear')
+        res()
+        if inp_3 =='1':
+            os.system('clear')
+
+        if inp_3 =='2':
+            os.system('clear')
+
+        else:
+            os.system('clear')
+
+    elif inp =='4':
+        print(Fore.GREEN + ' '+Style.BRIGHT)
+        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
+        print(Fore.GREEN+' '+Style.BRIGHT)
+        print(' [1] Предпосмотр')
+        print(' [2] Установить')
+        print(' [0] Назад')
+        print(Fore.BLUE+' '+Style.BRIGHT)
+        inp_4 = input (' Выбери пункт>>> ')
+        os.system('clear')
+        res()
+        if inp_4 =='1':
+            os.system('clear')
+
+        if inp_4 =='2':
+            os.system('clear')
+
+        else:
+            os.system('clear')
+
+    elif inp =='5':
+        print(Fore.GREEN + ' '+Style.BRIGHT)
+        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
+        print(Fore.GREEN+' '+Style.BRIGHT)
+        print(' [1] Предпосмотр')
+        print(' [2] Установить')
+        print(' [0] Назад')
+        print(Fore.BLUE+' '+Style.BRIGHT)
+        inp_5 = input (' Выбери пункт>>> ')
+        os.system('clear')
+        res()
+        if inp_5 =='1':
+            os.system('clear')
+
+        if inp_5 =='2':
+            os.system('clear')
+
+        else:
+            os.system('clear')
+
+    elif inp =='6':
+        print(Fore.GREEN + ' '+Style.BRIGHT)
+        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
+        print(Fore.GREEN+' '+Style.BRIGHT)
+        print(' [1] Предпосмотр')
+        print(' [2] Установить')
+        print(' [0] Назад')
+        print(Fore.BLUE+' '+Style.BRIGHT)
+        inp_6 = input (' Выбери пункт>>> ')
+        os.system('clear')
+        res()
+        if inp_6 =='1':
+            os.system('clear')
+
+        if inp_6 =='2':
             os.system('clear')
 
         else:
