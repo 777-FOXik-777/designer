@@ -10,7 +10,7 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
-print('Fore.BRIGHT+' ')
+print(Fore.BRIGHT+' ')
 print(' ╔═══╗╔═══╗╔═══╗╔══╗╔═══╗╔═╗─╔╗╔═══╗╔═══╗')
 print(' ╚╗╔╗║║╔══╝║╔═╗║╚╣─╝║╔═╗║║║╚╗║║║╔══╝║╔═╗║')
 print(' ─║║║║║╚══╗║╚══╗─║║─║║─╚╝║╔╗╚╝║║╚══╗║╚═╝║')
