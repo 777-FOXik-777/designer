@@ -45,7 +45,7 @@ while True:
         else:
             os.system('clear')
 
-    if inp =='0':
+    elif inp =='0':
         os.system('clear')
         print(Fore.CYAN + ' '+Style.BRIGHT)
         print('Спасибо за использование')
