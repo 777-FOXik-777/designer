@@ -31,9 +31,7 @@ while True:
     inp = input (' Выбери пункт>>> ')
     os.system('clear')
     
-
-
-    if inp =='0'
+    if inp =='0':
         res()
         os.system('clear')
         print('Спасибо за использование')
