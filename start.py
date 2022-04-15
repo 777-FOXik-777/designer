@@ -14,16 +14,18 @@ while True:
     print(' ─║║║║║╔══╝╚══╗║─║║─║║╔═╗║║╚╗║║║╔══╝║╔╗╔╝')
     print(' ╔╝╚╝║║╚══╗║╚═╝║╔╣─╗║╚╩═║║║─║║║║╚══╗║║║╚╗')
     print(' ╚═══╝╚═══╝╚═══╝╚══╝╚═══╝╚╝─╚═╝╚═══╝╚╝╚═╝')
-    res()
-    
-
-
-
-
-
+    print(Fore.GREEN+' '+Style.BRIGHT)
+    print('[1] ')
+    print('[2] ')
+    print('[3] ')
+    print('[4] ')
+    print(' ')
+    print('[0] выход')
+    print(Fore.YELLOW + ' '+Style.BRIGHT)
     inp = input (' Выбери пункт>>> ')
     os.system('clear')
-    
+    res()
+
     if inp =='0':
         os.system('clear')
         print(Fore.CYAN + ' ')
