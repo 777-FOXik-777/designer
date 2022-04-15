@@ -37,10 +37,10 @@ while True:
         os.system('clear')
         res()
         if inp_1 =='1':
-
+        os.system('clear')
 
         if inp_1 =='2':
-
+        os.system('clear')
 
         else:
             os.system('clear')
