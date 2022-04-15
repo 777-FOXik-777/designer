@@ -27,7 +27,7 @@ while True:
     
     if inp =='1':
         print(Fore.GREEN + ' '+Style.BRIGHT)
-        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+' )
+        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
         print(Fore.GREEN+' '+Style.BRIGHT)
         print(' [1] предпосмотр')
         print(' [2] установить')
@@ -36,8 +36,14 @@ while True:
         inp_1 = input (' Выбери пункт>>> ')
         os.system('clear')
         res()
+        if inp_1 =='1':
 
 
+        if inp_1 =='2':
+
+
+        else:
+            os.system('clear')
 
     if inp =='0':
         os.system('clear')
