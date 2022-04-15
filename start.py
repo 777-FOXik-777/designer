@@ -25,9 +25,11 @@ while True:
     os.system('clear')
     
     if inp =='0':
-        res()
         os.system('clear')
+        print(Fore.CYAN + ' ')
+        print(Style.BRIGHT + ' ')
         print('Спасибо за использование')
+        res()
         break
 
     else:
