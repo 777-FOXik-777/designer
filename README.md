@@ -1,4 +1,4 @@
-# что такое designer installer?
+# что такое designer?
 designer - это инструмент с готовыми шаблонами дизайна для Termux.
 # Установка designer на Termux
 
