@@ -35,3 +35,9 @@ while True:
         res()
         os.system('clear')
         print('Спасибо за использование')
+        break
+
+    else:
+        res()
+        os.system('clear')
+        print(Fore.RED+'не верный пункт')
