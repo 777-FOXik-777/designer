@@ -1,5 +1,5 @@
 # что такое designer installer?
-designer - 
+designer - это инструмент с готовыми шаблонами дизайна для Termux.
 # Установка designer на Termux
 
 + apt update
