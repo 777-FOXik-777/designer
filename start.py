@@ -169,4 +169,4 @@ while True:
     else:
         res()
         os.system('clear')
-        print(Fore.RED+'выбранный вами пункт не верный')
+        print(Fore.RED+' [выбранный вами пункт не верный]')
