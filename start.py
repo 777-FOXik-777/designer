@@ -9,8 +9,10 @@ from colorama import Fore, Style
 print ('\n')
 def res():
     print(Style.RESET_ALL)
+os.system('clear')
 
-print(Fore.BRIGHT+' ')
+print(Fore.MAGENTA + ' ')
+print(Style.BRIGHT + ' ')
 print(' ╔═══╗╔═══╗╔═══╗╔══╗╔═══╗╔═╗─╔╗╔═══╗╔═══╗')
 print(' ╚╗╔╗║║╔══╝║╔═╗║╚╣─╝║╔═╗║║║╚╗║║║╔══╝║╔═╗║')
 print(' ─║║║║║╚══╗║╚══╗─║║─║║─╚╝║╔╗╚╝║║╚══╗║╚═╝║')
