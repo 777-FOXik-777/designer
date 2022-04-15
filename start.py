@@ -42,7 +42,10 @@ while True:
             os.system('clear')
 
         if inp_1 =='2':
+            os.system('echo "clear" >> ~/.bashrc')
             os.system('clear')
+            print(Fore.GREEN+' '+Style.BRIGHT+'[Готово]')
+            time.sleep(2)
 
         else:
             os.system('clear')
@@ -62,7 +65,10 @@ while True:
             os.system('clear')
 
         if inp_2 =='2':
+            os.system('echo "clear" >> ~/.bashrc')
             os.system('clear')
+            print(Fore.GREEN+' '+Style.BRIGHT+'[Готово]')
+            time.sleep(2)
 
         else:
             os.system('clear')
@@ -82,7 +88,10 @@ while True:
             os.system('clear')
 
         if inp_3 =='2':
+            os.system('echo "clear" >> ~/.bashrc')
             os.system('clear')
+            print(Fore.GREEN+' '+Style.BRIGHT+'[Готово]')
+            time.sleep(2)
 
         else:
             os.system('clear')
@@ -102,7 +111,10 @@ while True:
             os.system('clear')
 
         if inp_4 =='2':
+            os.system('echo "clear" >> ~/.bashrc')
             os.system('clear')
+            print(Fore.GREEN+' '+Style.BRIGHT+'[Готово]')
+            time.sleep(2)
 
         else:
             os.system('clear')
@@ -122,7 +134,10 @@ while True:
             os.system('clear')
 
         if inp_5 =='2':
+            os.system('echo "clear" >> ~/.bashrc')
             os.system('clear')
+            print(Fore.GREEN+' '+Style.BRIGHT+'[Готово]')
+            time.sleep(2)
 
         else:
             os.system('clear')
@@ -142,7 +157,10 @@ while True:
             os.system('clear')
 
         if inp_6 =='2':
+            os.system('echo "clear" >> ~/.bashrc')
             os.system('clear')
+            print(Fore.GREEN+' '+Style.BRIGHT+'[Готово]')
+            time.sleep(2)
 
         else:
             os.system('clear')
