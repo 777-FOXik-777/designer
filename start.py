@@ -35,5 +35,5 @@ while True:
 
     if inp =='0'
         res()
-        os.system('clear)
+        os.system('clear')
         print('Спасибо за использование')
