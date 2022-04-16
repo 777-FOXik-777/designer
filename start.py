@@ -15,7 +15,7 @@ while True:
     print(' ╚═══╝╚═══╝╚═══╝╚══╝╚═══╝╚╝─╚═╝╚═══╝╚╝╚═╝')
     print(Fore.YELLOW+' '+Style.BRIGHT+'telegram:'+Fore.MAGENTA+' '+Style.BRIGHT+'@SYPEXHACK')
     print(Fore.GREEN+' '+Style.BRIGHT)
-    print(' [1] ')
+    print(' [1] Губка боб')
     print(' [2] ')
     print(' [3] ')
     print(' [4] ')
@@ -29,7 +29,7 @@ while True:
     
     if inp =='1':
         print(Fore.GREEN + ' '+Style.BRIGHT)
-        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
+        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+' Губка боб')
         print(Fore.GREEN+' '+Style.BRIGHT)
         print(' [1] Предпосмотр')
         print(' [2] Установить')
@@ -45,7 +45,7 @@ while True:
             os.system('echo "clear" >> ~/.bashrc')
             os.system('echo "echo "▕╮╭┻┻╮╭┻┻╮╭▕╮╲";echo "▕╯┃╭╮┃┃╭╮┃╰▕╯╭▏";echo "▕╭┻┻┻┛┗┻┻┛ ▕ ╰▏";echo "▕╰━━━┓┈┈┈╭╮▕╭╮▏";echo "▕╭╮╰┳┳┳┳╯╰╯▕╰╯▏";echo "▕╰╯┈┗┛┗┛┈╭╮▕╮┈▏"" >> ~/.bashrc')
             os.system('clear')
-            print(Fore.GREEN+' '+Style.BRIGHT+'Дизайн установлен]')
+            print(Fore.GREEN+' '+Style.BRIGHT+'[Дизайн установлен]')
 
         else:
             os.system('clear')
