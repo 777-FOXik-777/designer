@@ -40,6 +40,9 @@ while True:
         res()
         if inp_1 =='1':
             os.system('clear')
+            os.system(echo -e "\e[1;93m▕╮╭┻┻╮╭┻┻╮╭▕╮╲";echo -e "\e[1;93m▕╯┃\e[0m╭╮\e[1;93m┃┃\e[0m╭╮\e[1;93m┃╰▕╯╭▏";echo -e "\e[1;93m▕╭┻\e[0m┻┻\e[1;93m┛┗\e[0m┻┻\e[1;93m┛ ▕ ╰▏";echo -e "\e[1;93m▕╰━━━┓┈┈┈╭╮▕╭╮▏";echo -e "\e[1;93m▕╭╮╰┳┳┳┳╯╰╯▕╰╯▏";echo -e "\e[1;93m▕╰╯┈\e[0m┗┛\e[1;93m\e[0m┗┛\e[1;93m┈╭╮▕╮┈▏\e[0m"')
+            print(Fore.BLUE+' '+Style.BRIGHT)
+            inp_11 = input ('[нажмите entr чтобы выйти')
 
         if inp_1 =='2':
             os.system('rm ~/.bashrc')
