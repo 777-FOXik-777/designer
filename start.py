@@ -21,7 +21,7 @@ while True:
     print(' [4] ')
     print(' [5] ')
     print(' [6] Кастомный')
-    print(' [0] Выход         [00] Сбросить дизайн')
+    print(' [h] Выход         [m] Сбросить дизайн')
     print(Fore.BLUE+' '+Style.BRIGHT)
     inp = input (' Выбери пункт>>> ')
     os.system('clear')
@@ -161,14 +161,14 @@ while True:
         else:
             os.system('clear')
 
-    elif inp =='0':
+    elif inp =='h':
         os.system('clear')
         print(Fore.CYAN + ' '+Style.BRIGHT)
         print('Спасибо за использование')
         res()
         break
 
-    elif inp =='00'
+    elif inp =='m':
         os.system('rm ~/.bashrc')
         os.system('clear')
         print(Fore.YELLOW+' '+Style.BRIGHT+'[Дизайн сброшен]')
