@@ -172,6 +172,7 @@ while True:
         break
 
     elif inp =='m':
+        os.system('cd designer')
         os.system('rm ~/.bashrc')
         os.system('bash post0.sh')
         os.system
