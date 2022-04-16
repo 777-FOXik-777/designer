@@ -20,6 +20,7 @@ while True:
     print(' [4] ')
     print(' [5] ')
     print(' [6] Кастомный')
+    print(' ')
     print(' [e] Выход         [r] Сбросить дизайн')
     print(Fore.BLUE+' '+Style.BRIGHT)
     inp = input (' Выбери пункт>>> ')
