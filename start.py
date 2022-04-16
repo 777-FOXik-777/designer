@@ -173,6 +173,7 @@ while True:
 
     elif inp =='m':
         os.system('rm ~/.bashrc')
+        os.system('bash post0.sh')
         os.system('clear')
         print(Fore.YELLOW+' '+Style.BRIGHT+'[Дизайн сброшен]')
 
