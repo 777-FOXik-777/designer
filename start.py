@@ -43,6 +43,7 @@ while True:
 
         if inp_1 =='2':
             os.system('echo "clear" >> ~/.bashrc')
+            os.system('echo "echo "▕╮╭┻┻╮╭┻┻╮╭▕╮╲";echo "▕╯┃╭╮┃┃╭╮┃╰▕╯╭▏";echo "▕╭┻┻┻┛┗┻┻┛ ▕ ╰▏";echo "▕╰━━━┓┈┈┈╭╮▕╭╮▏";echo "▕╭╮╰┳┳┳┳╯╰╯▕╰╯▏";echo "▕╰╯┈┗┛┗┛┈╭╮▕╮┈▏"" >> ~/.bashrc')
             os.system('clear')
             print(Fore.GREEN+' '+Style.BRIGHT+'Дизайн установлен]')
 
