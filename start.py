@@ -56,7 +56,7 @@ while True:
 
     elif inp =='2':
         print(Fore.GREEN + ' '+Style.BRIGHT)
-        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
+        print(' Дизайн:'+Fore.CYAN + ' '+Style.BRIGHT+'Анонимус')
         print(Fore.GREEN+' '+Style.BRIGHT)
         print(' [1] Предпосмотр')
         print(' [2] Установить')
