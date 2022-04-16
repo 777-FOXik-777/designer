@@ -17,7 +17,7 @@ while True:
     print(' [1] Губка боб')
     print(' [2] Анонимус')
     print(' [3] Чашка кофе')
-    print(' [4] ')
+    print(' [4] Собачка')
     print(' [5] ')
     print(' [6] Кастомный')
     print(' ')
@@ -109,7 +109,7 @@ while True:
 
     elif inp =='4':
         print(Fore.GREEN + ' '+Style.BRIGHT)
-        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
+        print(' Дизайн:'+Fore.CYAN + ' '+Style.BRIGHT+'собачка')
         print(Fore.GREEN+' '+Style.BRIGHT)
         print(' [1] Предпосмотр')
         print(' [2] Установить')
@@ -120,12 +120,16 @@ while True:
         res()
         if inp_4 =='1':
             os.system('clear')
+            os.system('echo -e "╥━━━━━━━━╭━━╮━━┳"; echo -e "╢╭╮╭━━━━━┫┃▋▋━▅┣"; echo -e "╢┃╰┫┈┈┈┈┈┃┃┈┈╰┫┣"; echo -e "╢╰━┫┈┈┈┈┈╰╯╰┳━╯┣"; echo -e "╢┊┊┃┏┳┳━━┓┏┳┫┊┊┣"; echo -e "╨━━┗┛┗┛━━┗┛┗┛━━┻"')
+            print(Fore.BLUE+' '+Style.BRIGHT)
+            inp_41 = input ('[нажмите entr чтобы выйти] ')
 
         if inp_4 =='2':
+            os.system('rm ~/.bashrc')
             os.system('echo "clear" >> ~/.bashrc')
+            os.system(''' echo 'echo -e "╥━━━━━━━━╭━━╮━━┳"; echo -e "╢╭╮╭━━━━━┫┃▋▋━▅┣"; echo -e "╢┃╰┫┈┈┈┈┈┃┃┈┈╰┫┣"; echo -e "╢╰━┫┈┈┈┈┈╰╯╰┳━╯┣"; echo -e "╢┊┊┃┏┳┳━━┓┏┳┫┊┊┣"; echo -e "╨━━┗┛┗┛━━┗┛┗┛━━┻"' >> ~/.bashrc''')
             os.system('clear')
             print(Fore.GREEN+' '+Style.BRIGHT+'[Дизайн установлен]')
-
         else:
             os.system('clear')
 
