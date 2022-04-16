@@ -12,7 +12,7 @@ while True:
     print(' ─║║║║║╚══╗║╚══╗─║║─║║─╚╝║╔╗╚╝║║╚══╗║╚═╝║')
     print(' ─║║║║║╔══╝╚══╗║─║║─║║╔═╗║║╚╗║║║╔══╝║╔╗╔╝')
     print(' ╔╝╚╝║║╚══╗║╚═╝║╔╣─╗║╚╩═║║║─║║║║╚══╗║║║╚╗')
-    print(' ╚═══╝╚'+Fore.YELLOW+''+Style.BRIGHT+'telegram:'1Fore.CYAN+''+Style.BRIGHT+'═╝╚'+Fore.MAGENTA+''+Style.BRIGHT+'@SYPEXHACK'+Fore.CYAN+''+Style.BRIGHT═╝╚═══╝╚╝╚═╝')
+    print(' ╚═══╝╚'+Fore.YELLOW+''+Style.BRIGHT+'telegram:'1Fore.CYAN+''+Style.BRIGHT+'═╝╚'+Fore.MAGENTA+''+Style.BRIGHT+'@SYPEXHACK'+Fore.CYAN+''+Style.BRIGHT+'═╝╚═══╝╚╝╚═╝')
     print(Fore.GREEN+' '+Style.BRIGHT)
     print(' [1] Губка боб')
     print(' [2] ')
