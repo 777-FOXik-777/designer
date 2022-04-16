@@ -29,7 +29,7 @@ while True:
     
     if inp =='1':
         print(Fore.GREEN + ' '+Style.BRIGHT)
-        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+' Губка боб')
+        print(' Дизайн:'+Fore.CYAN + ' '+Style.BRIGHT+'Губка боб')
         print(Fore.GREEN+' '+Style.BRIGHT)
         print(' [1] Предпосмотр')
         print(' [2] Установить')
