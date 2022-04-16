@@ -67,7 +67,7 @@ while True:
         res()
         if inp_2 =='1':
             os.system('clear')
-            os.system('''echo -e 'echo -e "─────█─▄▀█──█▀▄─█──"; echo -e "────▐▌──────────▐▌──"; echo -e "────█▌▀▄──▄▄──▄▀▐█──"; echo -e "───▐██──▀▀──▀▀──██▌──"; echo -e "──▄████▄──▐▌──▄████▄─"' >> ~/.bashrc''')
+            os.system('echo -e "─────█─▄▀█──█▀▄─█──"; echo -e "────▐▌──────────▐▌──"; echo -e "────█▌▀▄──▄▄──▄▀▐█──"; echo -e "───▐██──▀▀──▀▀──██▌──"; echo -e "──▄████▄──▐▌──▄████▄─"')
             print(Fore.BLUE+' '+Style.BRIGHT)
             inp_21 = input ('[нажмите entr чтобы выйти] ')
 
