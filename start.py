@@ -16,7 +16,7 @@ while True:
     print(Fore.GREEN+' '+Style.BRIGHT)
     print(' [1] Губка боб')
     print(' [2] Анонимус')
-    print(' [3] ')
+    print(' [3] Чашка кофе')
     print(' [4] ')
     print(' [5] ')
     print(' [6] Кастомный')
@@ -83,7 +83,7 @@ while True:
 
     elif inp =='3':
         print(Fore.GREEN + ' '+Style.BRIGHT)
-        print(' Дизайн: '+Fore.CYAN + ' '+Style.BRIGHT+'  ')
+        print(' Дизайн:'+Fore.CYAN + ' '+Style.BRIGHT+'Чашка кофе')
         print(Fore.GREEN+' '+Style.BRIGHT)
         print(' [1] Предпосмотр')
         print(' [2] Установить')
@@ -94,12 +94,16 @@ while True:
         res()
         if inp_3 =='1':
             os.system('clear')
+            os.system('echo -e " )..)..)"; echo -e "██████████ ═╮"; echo -e "██████████  |"; echo -e "█ cofee  █  |"; echo -e "██████████ ═╯"; echo -e "◥████████◤"')
+            print(Fore.BLUE+' '+Style.BRIGHT)
+            inp_31 = input ('[нажмите entr чтобы выйти] ')
 
         if inp_3 =='2':
+            os.system('rm ~/.bashrc')
             os.system('echo "clear" >> ~/.bashrc')
+            os.system(''' echo -e " )..)..)"; echo -e "██████████ ═╮"; echo -e "██████████  |"; echo -e "█ cofee  █  |"; echo -e "██████████ ═╯"; echo -e "◥████████◤" ''')
             os.system('clear')
             print(Fore.GREEN+' '+Style.BRIGHT+'[Дизайн установлен]')
-
         else:
             os.system('clear')
 
