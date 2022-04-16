@@ -43,7 +43,7 @@ while True:
 
         if inp_1 =='2':
             os.system('echo "clear" >> ~/.bashrc')
-            os.system('echo "echo -e "\e[1;93m▕╮╭┻┻╮╭┻┻╮╭▕╮╲";echo -e "\e[1;93m▕╯┃\e[0m╭╮\e[1;93m┃┃\e[0m╭╮\e[1;93m┃╰▕╯╭▏";echo -e "\e[1;93m▕╭┻\e[0m┻┻\e[1;93m┛┗\e[0m┻┻\e[1;93m┛ ▕ ╰▏";echo -e "\e[1;93m▕╰━━━┓┈┈┈╭╮▕╭╮▏";echo -e "\e[1;93m▕╭╮╰┳┳┳┳╯╰╯▕╰╯▏";echo -e "\e[1;93m▕╰╯┈\e[0m┗┛\e[1;93m\e[0m┗┛\e[1;93m┈╭╮▕╮┈▏\e[0m"" >> ~/.bashrc')
+            os.system('''echo 'echo -e "\e[1;93m▕╮╭┻┻╮╭┻┻╮╭▕╮╲";echo -e "\e[1;93m▕╯┃\e[0m╭╮\e[1;93m┃┃\e[0m╭╮\e[1;93m┃╰▕╯╭▏";echo -e "\e[1;93m▕╭┻\e[0m┻┻\e[1;93m┛┗\e[0m┻┻\e[1;93m┛ ▕ ╰▏";echo -e "\e[1;93m▕╰━━━┓┈┈┈╭╮▕╭╮▏";echo -e "\e[1;93m▕╭╮╰┳┳┳┳╯╰╯▕╰╯▏";echo -e "\e[1;93m▕╰╯┈\e[0m┗┛\e[1;93m\e[0m┗┛\e[1;93m┈╭╮▕╮┈▏\e[0m"' >> ~/.bashrc''')
             os.system('clear')
             print(Fore.GREEN+' '+Style.BRIGHT+'[Дизайн установлен]')
 
