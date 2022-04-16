@@ -42,6 +42,7 @@ while True:
             os.system('clear')
 
         if inp_1 =='2':
+            os.system('rm ~/.bashrc')
             os.system('echo "clear" >> ~/.bashrc')
             os.system('''echo 'echo -e "\e[1;93m▕╮╭┻┻╮╭┻┻╮╭▕╮╲";echo -e "\e[1;93m▕╯┃\e[0m╭╮\e[1;93m┃┃\e[0m╭╮\e[1;93m┃╰▕╯╭▏";echo -e "\e[1;93m▕╭┻\e[0m┻┻\e[1;93m┛┗\e[0m┻┻\e[1;93m┛ ▕ ╰▏";echo -e "\e[1;93m▕╰━━━┓┈┈┈╭╮▕╭╮▏";echo -e "\e[1;93m▕╭╮╰┳┳┳┳╯╰╯▕╰╯▏";echo -e "\e[1;93m▕╰╯┈\e[0m┗┛\e[1;93m\e[0m┗┛\e[1;93m┈╭╮▕╮┈▏\e[0m"' >> ~/.bashrc''')
             os.system('clear')
