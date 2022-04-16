@@ -15,7 +15,7 @@ while True:
     print(' ╚═══╝╚'+Fore.YELLOW+''+Style.BRIGHT+'telegram:'+Fore.CYAN+''+Style.BRIGHT+'═╝╚'+Fore.MAGENTA+''+Style.BRIGHT+'@SYPEXHACK'+Fore.CYAN+''+Style.BRIGHT+'═╝╚═══╝╚╝╚═╝')
     print(Fore.GREEN+' '+Style.BRIGHT)
     print(' [1] Губка боб')
-    print(' [2] ')
+    print(' [2] Анонимус')
     print(' [3] ')
     print(' [4] ')
     print(' [5] ')
@@ -67,12 +67,17 @@ while True:
         res()
         if inp_2 =='1':
             os.system('clear')
+            os.system('''echo -e 'echo -e "─────█─▄▀█──█▀▄─█──"; echo -e "────▐▌──────────▐▌──"; echo -e "────█▌▀▄──▄▄──▄▀▐█──"; echo -e "───▐██──▀▀──▀▀──██▌──"; echo -e "──▄████▄──▐▌──▄████▄─"' >> ~/.bashrc''')
+            print(Fore.BLUE+' '+Style.BRIGHT)
+            inp_21 = input ('[нажмите entr чтобы выйти] ')
+
 
         if inp_2 =='2':
+            os.system('rm ~/.bashrc')
             os.system('echo "clear" >> ~/.bashrc')
+            os.system(''' echo 'echo -e "─────█─▄▀█──█▀▄─█──"; echo -e "────▐▌──────────▐▌──"; echo -e "────█▌▀▄──▄▄──▄▀▐█──"; echo -e "───▐██──▀▀──▀▀──██▌──"; echo -e "──▄████▄──▐▌──▄████▄─"' >> ~/.bashrc''')
             os.system('clear')
             print(Fore.GREEN+' '+Style.BRIGHT+'[Дизайн установлен]')
-
         else:
             os.system('clear')
 
