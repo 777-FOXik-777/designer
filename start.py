@@ -101,7 +101,7 @@ while True:
         if inp_3 =='2':
             os.system('rm ~/.bashrc')
             os.system('echo "clear" >> ~/.bashrc')
-            os.system(''' echo -e " )..)..)"; echo -e "██████████ ═╮"; echo -e "██████████  |"; echo -e "█ cofee  █  |"; echo -e "██████████ ═╯"; echo -e "◥████████◤" ''')
+            os.system(''' echo 'echo -e " )..)..)"; echo -e "██████████ ═╮"; echo -e "██████████  |"; echo -e "█ cofee  █  |"; echo -e "██████████ ═╯"; echo -e "◥████████◤"' >> ~/.bashrc''')
             os.system('clear')
             print(Fore.GREEN+' '+Style.BRIGHT+'[Дизайн установлен]')
         else:
